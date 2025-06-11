@@ -88,7 +88,6 @@
       position: relative;
     }
 
-    /* Borda ondulada na mensagem */
     .message::before {
       content: "";
       position: absolute;
@@ -123,8 +122,10 @@
         <img src="https://raw.githubusercontent.com/loveforyouu/diadosnamoradosc103/refs/heads/main/2.jpg" />
         <img src="https://raw.githubusercontent.com/loveforyouu/diadosnamoradosc103/refs/heads/main/3.jpg" />
         <img src="https://raw.githubusercontent.com/loveforyouu/diadosnamoradosc103/refs/heads/main/4.jpg" />
+        <img src="https://raw.githubusercontent.com/loveforyouu/diadosnamoradosc103/refs/heads/main/5.jpg" />        
         <img src="https://raw.githubusercontent.com/loveforyouu/diadosnamoradosc103/refs/heads/main/6.jpg" />
         <img src="https://raw.githubusercontent.com/loveforyouu/diadosnamoradosc103/refs/heads/main/7.jpg" />
+      </div>
     </div>
 
     <div class="slider-buttons">
@@ -136,15 +137,21 @@
     <div id="timer">Carregando...</div>
 
     <div class="message">
-      Agradeço todos os dias pelos nossos caminhos terem se encontrado. Você é a mulher da minha vida! Feliz dia dos namorados! Te amo pra sempre 💖
+      Todos os dias agradeço por ter te encontrado. Desde que você chegou, minha vida ganhou cor, leveza e propósito. Estar ao seu lado é o melhor presente que já recebi. Você é meu amor, meu lar, minha escolha diária. Feliz Dia dos Namorados! Te amo mais do que palavras podem dizer 💖
     </div>
 
     <div class="music-title">NOSSA MÚSICA:</div>
-    <iframe width="300" height="169" src="https://www.youtube.com/embed/ICS6uKC93w0?autoplay=1&mute=0" allow="autoplay" allowfullscreen></iframe>
+    <iframe 
+      width="300" 
+      height="169" 
+      src="https://www.youtube.com/embed/ljtO-PN5JIY?autoplay=1&mute=0" 
+      allow="autoplay; encrypted-media" 
+      allowfullscreen>
+    </iframe>
 
     <div class="map-title">NOSSO PRIMEIRO ENCONTRO:</div>
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.06690255393!2d-43.249!3d-22.907437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f15!3m3!1m2!1s0x997e5f51d4fb8f%3A0x4a9dcfe03b728e02!2sR.%20Sen.%20Soares%2C%2061%20-%20Vila%20Isabel%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1718138223151"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.847689144722!2d-43.25257022483685!3d-22.91427007927113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997efb3700550f%3A0x3a360cdb20fa0f5f!2sR.%20Castro%20Barbosa%2C%2065%20-%20Graja%C3%BA%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020540-230!5e0!3m2!1spt-BR!2sbr!4v1718129999999"
       width="300" height="200" allowfullscreen loading="lazy">
     </iframe>
   </div>
@@ -178,7 +185,6 @@
       }
 
       if (days < 0) {
-        // Ajusta para dias do mês anterior
         const prevMonth = new Date(now.getFullYear(), now.getMonth(), 0);
         days += prevMonth.getDate();
         months--;
